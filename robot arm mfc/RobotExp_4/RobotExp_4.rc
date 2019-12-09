@@ -1,0 +1,365 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// «—±πæÓ(¥Î«—πŒ±π) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#include ""res\\RobotExp_4.rc2""  // Microsoft Visual C++ ???®Î™É???????é¬Ä???¨Í≥•Î£???????Á≠åÎ§æ?¥Áï∞???Ê¥πÎ®ÆÎ¥æÁà∞???ÍπÖÏó∑????àÌé≤.\r\n"
+    "#include ""l.KOR\\afxres.rc""      // ??? ????¥Ω????Î∏êÏäú??\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.KOR\\afxribbon.rc""   // MFC ?Ê¥πÎ®ÆÎßßÊ≤Ö??????Ï≥??øÎÇÜÎø?Ô¶´ÎöÆ??ßç? ?Ê¥πÎ®ÆÎ¥æÁà∞??\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RobotExp_4.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RobotExp_4 ¡§∫∏"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "RobotExp_4, πˆ¿¸ 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "»Æ¿Œ",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_ROBOTEXP_4_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "RobotExp_4"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "√Îº“",IDCANCEL,263,179,50,14
+    LTEXT           "Port",IDC_STATIC,15,18,14,8
+    LTEXT           "Baud",IDC_STATIC,15,33,16,8
+    COMBOBOX        IDC_COMBO_PORT,41,17,48,176,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BAUD,41,32,48,161,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Open",IDC_CHECK_OPEN,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,96,18,33,10
+    GROUPBOX        "Comm",IDC_STATIC,8,4,126,48
+    EDITTEXT        IDC_EDIT_SEND,7,54,126,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RECV,7,71,127,52,ES_MULTILINE | ES_READONLY
+    PUSHBUTTON      "Send",IDC_BUTTON_SEND,96,33,33,10
+    PUSHBUTTON      "Forward",IDC_BUTTON_FORWARD,197,16,50,27
+    PUSHBUTTON      "Inverse",IDC_BUTTON_INVERSE,255,16,50,27
+    PUSHBUTTON      "INIT",IDC_BUTTON_INIT,139,16,50,27
+    LTEXT           "End Effector Position",IDC_STATIC,147,57,67,8
+    LTEXT           "Target",IDC_STATIC,141,84,22,8
+    LTEXT           "Current",IDC_STATIC,140,101,24,8
+    EDITTEXT        IDC_EDIT_TAR_X,173,81,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAR_Y,219,81,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAR_Z,265,81,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUR_X,173,99,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUR_Y,219,99,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUR_Z,265,99,40,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "X",IDC_STATIC,191,71,8,8
+    LTEXT           "Y",IDC_STATIC,236,71,8,8
+    LTEXT           "Z",IDC_STATIC,282,71,8,8
+    LTEXT           "Target",IDC_STATIC,15,157,22,8
+    LTEXT           "Current",IDC_STATIC,14,174,24,8
+    EDITTEXT        IDC_EDIT_TAR_POS_1,47,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAR_POS_2,93,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUR_POS_1,47,172,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUR_POS_2,93,172,40,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Position",IDC_STATIC,49,143,26,8
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR,8,123,34,10
+    EDITTEXT        IDC_EDIT_CUR_VEL,139,172,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TAR_VEL,139,154,40,14,ES_AUTOHSCROLL
+    LTEXT           "Velocity",IDC_STATIC,141,143,24,8
+    EDITTEXT        IDC_EDIT_CUR_TORQ,185,172,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TAR_TORQ,185,154,40,14,ES_AUTOHSCROLL
+    LTEXT           "Current",IDC_STATIC,187,143,23,8
+    PUSHBUTTON      "Check Graph",IDC_BUTTON_GRAPH,239,122,66,27
+    PUSHBUTTON      "Set",IDC_BUTTON_SET,226,45,50,19
+END
+
+IDD_GRAPH_DIALOG DIALOGEX 0, 0, 639, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_NTGRAPH_POS,
+                    "{C9FE01C2-2746-479B-96AB-E0BE9931B018}",WS_TABSTOP,7,7,210,195
+    CONTROL         "",IDC_NTGRAPH_VEL,
+                    "{C9FE01C2-2746-479B-96AB-E0BE9931B018}",WS_TABSTOP,217,7,210,195
+    CONTROL         "",IDC_NTGRAPH_TORQ,
+                    "{C9FE01C2-2746-479B-96AB-E0BE9931B018}",WS_TABSTOP,423,7,210,195
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <»∏ªÁ ¿Ã∏ß>"
+            VALUE "FileDescription", "RobotExp_4"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "RobotExp_4.exe"
+            VALUE "LegalCopyright", "TODO: (c) <»∏ªÁ ¿Ã∏ß>.  All rights reserved."
+            VALUE "OriginalFilename", "RobotExp_4.exe"
+            VALUE "ProductName", "TODO: <¡¶«∞ ¿Ã∏ß>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_ROBOTEXP_4_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_GRAPH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 632
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_GRAPH_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ROBOTEXP_4_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ROBOTEXP_4_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_BAUD, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_COMBO_BAUD, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    IDC_COMBO_BAUD, 0x403, 7, 0
+0x3131, 0x3235, 0x3030, "\000" 
+    0
+END
+
+IDD_GRAPH_DIALOG DLGINIT
+BEGIN
+    IDC_NTGRAPH_POS, 0x376, 337, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x2038, 0x0000, 0x206d, 0x0000, 0x00c2, 
+0x0000, 0xc004, 0xc4a7, 0x01a1, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 
+0x0000, 0x0000, 0xff00, 0xffff, 0x0000, 0x0000, 0x0000, 0x0000, 0x8000, 
+0x8080, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 0x0200, 0x6725, 0x2502, 0x0067, 
+0x0000, 0x0000, 0x0100, 0xff01, 0xffff, 0xff00, 0xffff, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0001, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 
+0x0001, 0x0000, 0x0190, 0x3f24, 0x0001, 0x4105, 0x6972, 0x6c61, 0x0300, 
+0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 
+0xbc00, 0x1002, 0x01d0, 0x0f00, 0x6954, 0x656d, 0x2073, 0x654e, 0x2077, 
+0x6f52, 0x616d, 0x006e, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 
+0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x95dc, 0x0001, 0x4105, 0x6972, 
+0x6c61, 0x0300, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 
+0x0151, 0x0000, 0x9000, 0x2401, 0x013f, 0x0500, 0x7241, 0x6169, 0x006c, 
+0x5204, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 
+0x0000, 0x0000, 0x0000, 0x0400, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 
+0x00aa, 0xb84b, 0x6c51, 0x0074, 0x0000, 0x0000, "\000" 
+    IDC_NTGRAPH_VEL, 0x376, 337, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x2038, 0x0000, 0x206d, 0x0000, 0x00c2, 
+0x0000, 0xbc04, 0xb5d3, 0x01b5, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 
+0x0000, 0x0000, 0xff00, 0xffff, 0x0000, 0x0000, 0x0000, 0x0000, 0x8000, 
+0x8080, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 0x0200, 0x6725, 0x2502, 0x0067, 
+0x0000, 0x0000, 0x0100, 0xff01, 0xffff, 0xff00, 0xffff, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0001, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 
+0x0001, 0x0000, 0x0190, 0x3f24, 0x0001, 0x4105, 0x6972, 0x6c61, 0x0300, 
+0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 
+0xbc00, 0x1002, 0x01d0, 0x0f00, 0x6954, 0x656d, 0x2073, 0x654e, 0x2077, 
+0x6f52, 0x616d, 0x006e, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 
+0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x95dc, 0x0001, 0x4105, 0x6972, 
+0x6c61, 0x0300, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 
+0x0151, 0x0000, 0x9000, 0x2401, 0x013f, 0x0500, 0x7241, 0x6169, 0x006c, 
+0x5204, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 
+0x0000, 0x0000, 0x0000, 0x0400, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 
+0x00aa, 0xb84b, 0x6c51, 0x0074, 0x0000, 0x0000, "\000" 
+    IDC_NTGRAPH_TORQ, 0x376, 337, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x2038, 0x0000, 0x206d, 0x0000, 0x00c2, 
+0x0000, 0xc504, 0xc5e4, 0x01a9, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 
+0x0000, 0x0000, 0xff00, 0xffff, 0x0000, 0x0000, 0x0000, 0x0000, 0x8000, 
+0x8080, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 0x0200, 0x6725, 0x2502, 0x0067, 
+0x0000, 0x0000, 0x0100, 0xff01, 0xffff, 0xff00, 0xffff, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 0xffff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0001, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 
+0x0001, 0x0000, 0x0190, 0x3f24, 0x0001, 0x4105, 0x6972, 0x6c61, 0x0300, 
+0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 
+0xbc00, 0x1002, 0x01d0, 0x0f00, 0x6954, 0x656d, 0x2073, 0x654e, 0x2077, 
+0x6f52, 0x616d, 0x006e, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 
+0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x95dc, 0x0001, 0x4105, 0x6972, 
+0x6c61, 0x0300, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 
+0x0151, 0x0000, 0x9000, 0x2401, 0x013f, 0x0500, 0x7241, 0x6169, 0x006c, 
+0x5204, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 
+0x0000, 0x0000, 0x0000, 0x0400, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 
+0x00aa, 0xb84b, 0x6c51, 0x0074, 0x0000, 0x0000, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "RobotExp_4 ¡§∫∏(&A)..."
+END
+
+#endif    // «—±πæÓ(¥Î«—πŒ±π) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#include "res\RobotExp_4.rc2"  // Microsoft Visual C++ ???®Î™É???????é¬Ä???¨Í≥•Î£???????Á≠åÎ§æ?¥Áï∞???Ê¥πÎ®ÆÎ¥æÁà∞???ÍπÖÏó∑????àÌé≤.
+#include "l.KOR\afxres.rc"      // ??? ????¥Ω????Î∏êÏäú??
+#if !defined(_AFXDLL)
+#include "l.KOR\afxribbon.rc"   // MFC ?Ê¥πÎ®ÆÎßßÊ≤Ö??????Ï≥??øÎÇÜÎø?Ô¶´ÎöÆ??ßç? ?Ê¥πÎ®ÆÎ¥æÁà∞??
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

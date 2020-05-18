@@ -18,7 +18,7 @@ Va : 총 전압, Ra: 저항, La: 인덕턱스, ea: 유기 기전력<br>
 
 >Va = Ra x ia + La x d(ia)/dt + ea
 
-### Transfer Function(전달함수)
+### Transfer Function(전달함수) -> No load인 경우
 ![image](https://user-images.githubusercontent.com/42115807/82226334-57139500-9961-11ea-97e8-738aa837af14.png)
 ![image](https://user-images.githubusercontent.com/42115807/82226390-6a266500-9961-11ea-888e-535b2f347448.png)<br>
 

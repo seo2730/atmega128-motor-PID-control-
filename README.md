@@ -3,7 +3,7 @@ Speed controller : https://www.youtube.com/watch?v=1ZMwWaizCjQ <br>
 Position controller : https://www.youtube.com/watch?v=dzYhXpqx9Co <br>
 
 # DC Motor Modeling
-![image](https://user-images.githubusercontent.com/42115807/82224695-23377000-995f-11ea-8ff5-b5cbced47643.png)
+![image](https://user-images.githubusercontent.com/42115807/82224695-23377000-995f-11ea-8ff5-b5cbced47643.png)<br>
 Te: 토크, b: 마찰 계수, J: 관성, 𝜽𝒎: 각도
 
 ### No load system 
@@ -13,12 +13,17 @@ Te: 토크, b: 마찰 계수, J: 관성, 𝜽𝒎: 각도
 >𝑻𝒆 - 𝒃 x d(𝜽𝒎)/dt - 𝑻𝑳  ̇= 𝑱 x d(𝜽𝒎)/dt
 
 ### DC Motor 전기 방정식
-![image](https://user-images.githubusercontent.com/42115807/82225564-52021600-9960-11ea-8a37-4633cb98c934.png)
+![image](https://user-images.githubusercontent.com/42115807/82225564-52021600-9960-11ea-8a37-4633cb98c934.png)<br>
 Va : 총 전압, Ra: 저항, La: 인덕턱스, ea: 유기 기전력<br>
 
 >Va = Ra x ia + La x d(ia)/dt + ea
 
 ### Transfer Function(전달함수)
+![image](https://user-images.githubusercontent.com/42115807/82226334-57139500-9961-11ea-97e8-738aa837af14.png)
+![image](https://user-images.githubusercontent.com/42115807/82226390-6a266500-9961-11ea-888e-535b2f347448.png)<br>
+
+![image](https://user-images.githubusercontent.com/42115807/82226491-85917000-9961-11ea-80e1-9b0d29f7e60e.png)
+
 
 # Geared Motor Modeling
 ![image](https://user-images.githubusercontent.com/42115807/82223857-2ed66700-995e-11ea-937a-9002f202ff3e.png)
